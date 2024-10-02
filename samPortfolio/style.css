@@ -34,6 +34,14 @@ nav{
     padding:20px;
 }
 
+@media screen and (max-width: 768px) {
+    nav {
+        height: 50px;
+        padding: 10px;
+        flex-direction: column;
+    }
+}
+
 #name-div h1{
     margin-left:100px;
     font-weight: bold;
@@ -177,7 +185,7 @@ li
     }
 }
 
-/* Main Container with avatar and text */
+
 /* Main container with avatar and text */
 #container {
     position: absolute;
@@ -188,6 +196,12 @@ li
     justify-content: space-between; /* Space between text and avatar */
     align-items: center; /* Vertically align in the center */
     padding: 0 50px; /* Adjust padding to create space on both sides */
+}
+
+@media screen and (max-width: 768px) {
+    #container {
+        flex-direction: column; /* Align content in a column */
+    }
 }
 
 /* Typewriter text on the left side */
@@ -375,6 +389,12 @@ transition: all 2s ease ;
     }
 
 }
+@media screen and (max-width: 768px) {
+    .card {
+        width: 75%;
+    }
+}
+
 .card img {
     width: 100%;
     height: 200px;
@@ -451,6 +471,13 @@ transition: all 2s ease ;
         
     }
 
+    @media screen and (max-width: 768px) {
+        form {
+            padding: 10px;
+            max-width: 768;
+        }
+    }
+
     label {
         display: block;
         margin-bottom: 8px;
@@ -515,7 +542,13 @@ transition: all 2s ease ;
     
     width: 100%;
     text-align: center;
-    height: 80px;
+    height: 70px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        height: 50px;
+    }
 }
 
 .footer .container {
@@ -534,3 +567,8 @@ transition: all 2s ease ;
     font-size: medium;
 }
     
+@media screen and (max-width: 768px) {
+    .footer p {
+        font-size: 14px;
+    }
+}
