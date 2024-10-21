@@ -33,7 +33,7 @@ btnScissor?.addEventListener('mouseout', () => {
     thirdBtn.style.boxShadow = "none";
 });
 //functioning
-let button = document.querySelectorAll('button');
+let button1 = document.querySelectorAll('button');
 let result = document.getElementById('result');
 let compBtn = document.getElementById('compBtn');
 let userInput;
@@ -53,7 +53,7 @@ function randomFunc() {
     }
     return comp;
 }
-button.forEach((element) => {
+button1.forEach((element) => {
     element.addEventListener('click', (p) => {
         let a = randomFunc();
         console.log(a);

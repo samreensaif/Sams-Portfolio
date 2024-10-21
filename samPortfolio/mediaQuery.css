@@ -1,0 +1,348 @@
+@media screen and (max-width: 768px) {
+    
+    
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+        font-size: larger;
+        position: relative;
+        z-index: 101; /* Ensure the button stays above the menu */
+    
+    }
+    
+    #list ul {
+        position: absolute;
+        flex-direction: column;
+        background-color: rgb(34, 34, 78);
+        right:0;
+        left:-100%;
+        top:100%;
+        width: 100%;
+        padding-block: 20px;
+        z-index: 100;
+        
+        
+    }
+
+    #list ul.active{
+        left:0;
+    }
+    #list ul li{
+       margin-left: 0px;
+        text-align:center;
+    }
+
+    #name-div h1{
+        text-align: center;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    nav{
+        border-radius: 0px;
+        overflow: initial;
+    }
+    #buttons,#buttons1,#buttons3{
+        display:none;
+    }
+    #para-about{
+        height: auto;
+        width: auto;
+    }
+    #about-heading, #edu-heading, #pro-heading,#contact-heading{
+        font-size: 4rem;
+    }
+    #para-about p{
+        font-size: 15px;
+    }
+    #container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    }
+    #typewriter{
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0px;
+    }
+    #avatar {
+        width: 250px;
+        height: 250px;
+        margin-right: 0px;
+    }
+    #sec-two{
+        margin-top: 500px;
+    }
+    #sec-three{
+        margin-top: 0px;
+        height: 500px;
+    }
+       
+    br{
+        display: none;
+    }
+    #sec-three::before, 
+    #edu-list ul li::before {
+        display: none;
+    }
+
+    #edu-list{
+        color:white;
+        font-size: 1rem;
+        margin-right: 0px;
+        margin-top: 50px;
+        text-align:left ;
+        
+    
+    }
+
+    #edu-list ul li {
+
+        
+        margin-top:0px;
+        padding:0px;
+        list-style:circle;
+        margin-left: 10px;
+        
+    }
+    
+
+    #card-divs{
+        margin-top: 50px;
+        
+    }
+
+    .card{
+        width:12rem;
+        height:350px;
+        margin: 5px;
+        padding: 5px;
+    }
+    .card img {
+        height: 170px;
+        margin-top: 4px;
+    }
+    .card-body p{
+        color:blue;
+        font-size: 14px;
+    
+    }
+    .card-body h5, .card-body p {
+        margin-bottom: 7px;
+    }
+    .card-title{
+        font-size: 1rem;
+    }
+    .card-body a {
+        margin-top:0px;
+    }
+
+    #secondHeading h2{
+        color:rgb(3, 241, 181) !important;
+        font-size: 30px;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        position:static;
+        text-align: center;
+        margin-left: 0px;
+    }
+     #hp{
+        left:1150px;
+    }
+    form {
+        padding: 5px;
+        max-width: 768;
+    }
+
+    .footer{
+        border-radius: 0px;
+        height:auto;
+        margin-top: 20px;
+    }
+
+    .footer p {
+        margin: 2px 0;
+        font-size: medium;
+    }
+    #buttons2{
+        display: flex;
+        gap:5px;
+        position: absolute;
+        top:6850px;
+        right:40px;
+        flex-direction: row;
+        background-color: black;
+        
+    }
+    #hp .card{
+        left: 50px;
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 320px) {
+    
+    .nav-toggle {
+        display: block;
+        margin-right: 15px; /* Adjust margin for smaller screen */
+        font-size: large; /* You can adjust the font-size if needed */
+    }
+    
+    #list ul {
+        position: absolute;
+        flex-direction: column;
+        background-color: rgb(34, 34, 78);
+        right:0px;
+        top:100%;
+        width: 100%;
+        padding-block: 20px;
+        z-index: 100;
+        
+    }
+    #list ul li{
+       margin-left: 0px;
+        text-align:center;
+    }
+
+    #name-div h1{
+        text-align: center;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    nav{
+        border-radius: 0px;
+        overflow: initial;
+    }
+
+    #name-div h1 {
+        text-align: center;
+        font-size: 30px; /* Decrease font size for smaller screen */
+        margin-top: 15px;
+    }
+
+    nav {
+        border-radius: 0px;
+    }
+
+    #buttons, #buttons1, #buttons3 {
+        display: none;
+    }
+    #buttons2{
+        display: flex;
+        gap:5px;
+        position: absolute;
+        top:6850px;
+        right:40px;
+        flex-direction: row;
+        background-color: black;
+        
+    }
+    #hp .card{
+        left: 50px;
+    }
+
+    #para-about {
+        height: auto;
+        width: auto;
+    }
+    #about-heading, #edu-heading, #pro-heading,#contact-heading{
+        font-size: 4rem;
+    }
+    #para-about p{
+        font-size: 15px;
+    }
+    #typewriter{
+        font-size: 1rem;
+        text-align: center;
+        margin: 0px;
+    
+    }
+    #avatar {
+        width: 200px;
+        height: 200px;
+        margin-right: 0px;
+    }
+    #container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0px;
+    }
+    #sec-two{
+        margin-top: 500px;
+    }
+    #sec-three{
+        margin-top: 0px;
+        height:500px;
+    }
+    #sec-three::before, 
+    #edu-list ul li::before {
+        display: none;
+    }
+
+    #edu-list{
+        color:white;
+        font-size: 1rem;
+        margin-right: 0px;
+        margin-top: 50px;
+        text-align:left ;
+        
+    
+    }
+
+    #edu-list ul li {
+
+        
+        margin-top:0px;
+        padding:0px;
+        list-style:circle;
+        margin-left: 10px;
+        
+    }
+    
+
+    #card-divs{
+        margin-top: 50px;
+        
+    }
+
+    .card{
+        width:12rem;
+        height:350px;
+        margin: 5px;
+        padding: 5px;
+    }
+    .card img {
+        height: 170px;
+        margin-top: 4px;
+    }
+    .card-body p{
+        color:blue;
+        font-size: 14px;
+    
+    }
+    .card-body h5, .card-body p {
+        margin-bottom: 7px;
+    }
+    .card-title{
+        font-size: 1rem;
+    }
+    .card-body a {
+        margin-top:0px;
+    }
+
+    #secondHeading h2{
+        color:rgb(3, 241, 181) !important;
+        font-size: 30px;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        position:static;
+        text-align: center;
+        margin-left: 0px;
+    }
+    form {
+        padding: 5px;
+        max-width: 320;
+    }
+    
+}

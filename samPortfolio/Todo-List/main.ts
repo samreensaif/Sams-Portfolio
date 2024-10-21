@@ -9,13 +9,13 @@ let input:any=document.getElementById('input');
 
 //-------catch button here-------------
 
-let button:any = document.getElementById('button');
+let button2:any = document.getElementById('button');
 
 
 
 //--------------add event listener on button------
 
- button.addEventListener('click',addTodo);   //click event
+ button2.addEventListener('click',addTodo);   //click event
 
  input.addEventListener('keydown',(e:any)=>{        //enter key event on input tag
     if(e.key =='Enter'){

@@ -4,9 +4,9 @@ let parentUl = document.querySelector("ul");
 //--------catch the input field here----------
 let input = document.getElementById('input');
 //-------catch button here-------------
-let button = document.getElementById('button');
+let button2 = document.getElementById('button');
 //--------------add event listener on button------
-button.addEventListener('click', addTodo); //click event
+button2.addEventListener('click', addTodo); //click event
 input.addEventListener('keydown', (e) => {
     if (e.key == 'Enter') {
         addTodo();

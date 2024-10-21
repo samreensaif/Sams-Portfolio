@@ -55,7 +55,7 @@ btnScissor?.addEventListener('mouseout',()=>{
 
 //functioning
 
-let button: any = document.querySelectorAll('button');
+let button1: any = document.querySelectorAll('button');
 
 let result:any =document.getElementById('result');
 
@@ -90,7 +90,7 @@ function randomFunc(){
 
 
 
-button.forEach((element:any) => {
+button1.forEach((element:any) => {
 
 
     element.addEventListener('click',(p:any)=>{

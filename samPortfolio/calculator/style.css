@@ -10,11 +10,13 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    flex-direction: column;
+    gap:20px;
+    
 }
 
 h1{
-position: absolute;
+
 color: #333333;
 top:50px;
 right:440px;
@@ -25,7 +27,7 @@ font-size: 50px;
 }
 
 .cal{
-    position: absolute;
+    
     padding:20px;
     background-color: #000000;
     border-radius: 20px;
@@ -86,4 +88,33 @@ font-size: 50px;
     text-align: right;
     padding-right:10px ;
     font-size: 50px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px; /* Smaller title for small screens */
+        top: 10px; /* Adjust position */
+        left: 100px; /* Adjust position */
+        
+    }
+
+    .cal {
+        width: 90%; /* Ensure the calculator takes up more width */
+    }
+
+    .cal form input {
+        height: 50px; /* Smaller button height */
+        width: 50px; /* Smaller button width */
+        font-size: 18px; /* Smaller font size for buttons */
+    }
+
+    .cal form .screen .scr {
+        font-size: 24px; /* Smaller font size for the display */
+    }
+
+    /* Adjust the main container for smaller devices */
+    .container {
+        padding: 10px; /* Add some padding */
+    }
 }
